@@ -1,5 +1,5 @@
 {
-  "name": "foodoc",
+  "name": "@sitna/jsdoc-template",
   "version": "0.0.9",
   "description": "A Bootstrap and Handlebars based JSDoc3 template.",
   "main": "./template/publish.js",
@@ -8,19 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/steveush/foodoc.git"
+    "url": "git+https://github.com/sitna/api-sitna-jsdoc-template.git"
   },
   "keywords": [
     "jsdoc",
-    "template",
-    "fooplugins"
+    "template"
   ],
-  "author": "Steve Usher",
+  "author": "Fernando Lacunza",
   "license": "GPL-3.0",
-  "bugs": {
-    "url": "https://github.com/steveush/foodoc/issues"
-  },
-  "homepage": "https://github.com/steveush/foodoc#readme",
+  "homepage": "https://github.com/sitna/api-sitna-jsdoc-template",
   "devDependencies": {
     "bootstrap": "^3.3.7",
     "clipboard": "^2.0.1",
