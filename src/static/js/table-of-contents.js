@@ -284,7 +284,7 @@
 	 * @returns {jQuery}
 	 */
 	TOC.prototype.$backToTop = function(){
-		return $('<span/>', {'class': 'back-to-top', text: 'Back to top'}).on('click', function(e){
+		return $('<span/>', {'class': 'back-to-top', text: 'Volver arriba'}).on('click', function(e){
 			e.preventDefault();
 			if (window.history){
 				history.replaceState(null, document.title, location.pathname + location.search);
