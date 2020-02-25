@@ -325,6 +325,7 @@ exports.buildNavbar = function(navbar){
 		kind: 'readme',
 		link: helper.longnameToUrl['index'],
 		title: template.options.systemName,
+		version: template.options.systemVersion,
 		summary: template.options.systemSummary,
 		members: []
 	};

@@ -5,6 +5,7 @@
 			<a class="navbar-brand{{#if options.systemLogo}} branding-logo{{/if}}" href="{{navbar.index.link}}"{{#if options.systemLogo}} style="background-image: url({{options.systemLogo}});"{{/if}}>
 				{{navbar.index.title}}
 			</a>
+            <a href="tutorial-4-changes.html" class="navbar-version">{{navbar.index.version}}</a>
 			<!-- displayed on small devices -->
 			<button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#topNavigation">
 				<span class="icon-bar"></span>
@@ -32,6 +33,7 @@
 						{{/if}}
 					{{/if}}
 				{{/each}}
+                <li><a href="https://github.com/sitna/api-sitna">Ver en Github</a></li>
 			</ul>
 			{{#if options.search}}
 				{{> search/navbar-input}}
