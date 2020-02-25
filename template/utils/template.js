@@ -241,7 +241,7 @@ var hasNavMember = exports.hasNavMember = function(kind){
 exports.createCrumbs = function(doclet){
 	var crumbs = [];
 	if (doclet.kind === 'readme' || doclet.kind === 'source') return crumbs;
-	crumbs.push(linkto("index", "Home"));
+	crumbs.push(linkto("index", "Inicio"));
 	if (doclet.kind !== 'list' && doclet.kind !== 'global' && hasNavMember(doclet.kind)){
 		crumbs.push(linkto("list:"+doclet.kind));
 	}
