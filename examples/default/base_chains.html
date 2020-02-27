@@ -25,6 +25,7 @@
 				<a class="navbar-brand" href="index.html">
 					FooDoc
 				</a>
+	            <a href="tutorial-4-changes.html" class="navbar-version"></a>
 				<!-- displayed on small devices -->
 				<button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#topNavigation">
 					<span class="icon-bar"></span>
@@ -80,11 +81,12 @@
 											<li><a href="tutorial-drive-car.html">Drive Car</a></li>
 									</ul>
 								</li>
+	                <li><a href="https://github.com/sitna/api-sitna">Ver en Github</a></li>
 				</ul>
 					<!-- start:lunr-search-navbar.hbs -->
 					<form class="navbar-form navbar-right" role="search">
 						<div class="input-group">
-							<input type="text" class="form-control" placeholder="Search" id="lunr-search-input">
+							<input type="text" class="form-control" placeholder="Buscar" id="lunr-search-input">
 							<div class="input-group-btn">
 								<button class="btn btn-default" id="lunr-search-submit">
 									<i class="glyphicon glyphicon-search"></i>
@@ -103,9 +105,12 @@
 		</div>
 	<div class="container content">
 		<div class="row">
+			<div class="col-md-3 side-content">
+				<nav class="toc hidden-print hidden-sm hidden-xs"></nav>
+			</div>
 			<div class="col-md-9 main-content">
 						<ol class="breadcrumb">
-							<li><a href="index.html">Home</a></li>
+							<li><a href="index.html">Inicio</a></li>
 							<li><a href="list_class.html">Classes</a></li>
 							<li class="active">base/chains</li>
 						</ol>
@@ -126,8 +131,8 @@
 </dt>
 <dd class="symbol-details class  collapsible-symbol expanded" style="max-height: 9999px;">
 	<div class="symbol-details-inner">
-			<div class="callout callout-primary"><h5>Description</h5>		<div class="description classdesc"><p>Chains define the primary composition elements (functions) that determine the order of execution.</p></div>
-			</div>			<div class="callout callout-default"><h5>Details</h5>		<form class="form-horizontal details">
+			<div class="callout callout-primary"><h5>Descripción</h5>		<div class="description classdesc"><p>Chains define the primary composition elements (functions) that determine the order of execution.</p></div>
+			</div>			<div class="callout callout-default"><h5>Detalles</h5>		<form class="form-horizontal details">
 			
 			
 			
@@ -145,7 +150,7 @@
 			
 							<!-- source -->
 							<div class="form-group">
-								<label class="col-sm-3 control-label">Source</label>
+								<label class="col-sm-3 control-label">Fuente</label>
 								<div class="col-sm-9">
 									<p class="form-control-static"><a href="base_chains.js.html">base/chains.js</a>, <a href="base_chains.js.html#line-14">line 14</a></p>
 								</div>
@@ -159,7 +164,7 @@
 </dd>
 							</dl>
 							<article class="secondary">
-									<h3>Members</h3>
+									<h3>Miembros</h3>
 									<dl class="symbol">
 											<hr/>
 											<dt class="symbol-title member public collapsible-symbol">
@@ -167,7 +172,9 @@
 		</dt>
 <dd class="symbol-details member public  collapsible-symbol">
 	<div class="symbol-details-inner">
-			<div class="callout callout-primary"><h5>Description</h5>		<div class="description"><p>The <code>close</code> method asks an object to shut itself down in a way that will allow it to be reopened, unlike the<br><a href="base_chains.html#end">end method</a> which will call the destroy method which should make the object unusable, but also<br>devoid of all resources whereas <code>close</code> may still keep some resources open.</p>
+			<div class="callout callout-primary"><h5>Descripción</h5>		<div class="description"><p>The <code>close</code> method asks an object to shut itself down in a way that will allow it to be reopened, unlike the<br>
+			<a href="base_chains.html#end">end method</a> which will call the destroy method which should make the object unusable, but also<br>
+			devoid of all resources whereas <code>close</code> may still keep some resources open.</p>
 			<table>
 			<thead>
 			<tr>
@@ -185,7 +192,7 @@
 			</tbody>
 			</table>
 			<p>This uses the <code>before</code> chain which means the last one defined in the first one destroyed</p></div>
-			</div>			<div class="callout callout-default"><h5>Details</h5>		<form class="form-horizontal details">
+			</div>			<div class="callout callout-default"><h5>Detalles</h5>		<form class="form-horizontal details">
 			
 			
 			
@@ -203,7 +210,7 @@
 			
 							<!-- source -->
 							<div class="form-group">
-								<label class="col-sm-3 control-label">Source</label>
+								<label class="col-sm-3 control-label">Fuente</label>
 								<div class="col-sm-9">
 									<p class="form-control-static"><a href="base_chains.js.html">base/chains.js</a>, <a href="base_chains.js.html#line-15">line 15</a></p>
 								</div>
@@ -212,7 +219,7 @@
 			
 							<!-- see -->
 							<div class="form-group">
-								<label class="col-sm-3 control-label">See</label>
+								<label class="col-sm-3 control-label">Ver</label>
 								<div class="col-sm-9">
 										<p class="form-control-static"><a href="base_chains.html#open">base/chains#open</a></p>
 								</div>
@@ -228,13 +235,15 @@
 		</dt>
 <dd class="symbol-details member public  collapsible-symbol">
 	<div class="symbol-details-inner">
-			<div class="callout callout-primary"><h5>Description</h5>		<div class="description"><p>The <code>end</code> method will call the destroy method which should make the object unusable and<br>devoid of all resources, unlike the<br><a href="base_chains.html#close">close method</a> asks an object to shut itself down in a way that will allow it to be reopened.</p>
+			<div class="callout callout-primary"><h5>Descripción</h5>		<div class="description"><p>The <code>end</code> method will call the destroy method which should make the object unusable and<br>
+			devoid of all resources, unlike the<br>
+			<a href="base_chains.html#close">close method</a> asks an object to shut itself down in a way that will allow it to be reopened.</p>
 			<p>This uses the <code>before</code> chain which means the last one defined in the first one destroyed</p></div>
-			</div>			<div class="callout callout-example"><h5>Examples</h5>		<div class="example-caption"><p>Add <em>this</em> to your application.properties.</p></div>
+			</div>			<div class="callout callout-example"><h5>Ejemplos</h5>		<div class="example-caption"><p>Add <em>this</em> to your application.properties.</p></div>
 					<div class="example-code">
 						<pre class="prettyprint source language-bash"><code class="language-bash">foo&#x3D;bar</code></pre>
 					</div>
-			</div>			<div class="callout callout-default"><h5>Details</h5>		<form class="form-horizontal details">
+			</div>			<div class="callout callout-default"><h5>Detalles</h5>		<form class="form-horizontal details">
 			
 			
 			
@@ -252,7 +261,7 @@
 			
 							<!-- source -->
 							<div class="form-group">
-								<label class="col-sm-3 control-label">Source</label>
+								<label class="col-sm-3 control-label">Fuente</label>
 								<div class="col-sm-9">
 									<p class="form-control-static"><a href="base_chains.js.html">base/chains.js</a>, <a href="base_chains.js.html#line-30">line 30</a></p>
 								</div>
@@ -270,9 +279,12 @@
 		</dt>
 <dd class="symbol-details member private  collapsible-symbol">
 	<div class="symbol-details-inner">
-			<div class="callout callout-primary"><h5>Description</h5>		<div class="description"><p>Destroy is called by the end method and it is here that you should clean up after yourself. The difference between<br><code>destroy</code> and <a href="base_chains.html#end">end</a> is the <code>end</code> is the verb that you raise on an object to ask it to go away<br>and <code>destroy</code> is where you actually do the work to clean up. Think of this as the counterpart of <code>constructor</code> yet<br>not called automatically.</p>
+			<div class="callout callout-primary"><h5>Descripción</h5>		<div class="description"><p>Destroy is called by the end method and it is here that you should clean up after yourself. The difference between<br>
+			<code>destroy</code> and <a href="base_chains.html#end">end</a> is the <code>end</code> is the verb that you raise on an object to ask it to go away<br>
+			and <code>destroy</code> is where you actually do the work to clean up. Think of this as the counterpart of <code>constructor</code> yet<br>
+			not called automatically.</p>
 			<p>This uses the <code>before</code> chain which means the last one defined is the first one destroyed</p></div>
-			</div>			<div class="callout callout-default"><h5>Details</h5>		<form class="form-horizontal details">
+			</div>			<div class="callout callout-default"><h5>Detalles</h5>		<form class="form-horizontal details">
 			
 			
 			
@@ -290,7 +302,7 @@
 			
 							<!-- source -->
 							<div class="form-group">
-								<label class="col-sm-3 control-label">Source</label>
+								<label class="col-sm-3 control-label">Fuente</label>
 								<div class="col-sm-9">
 									<p class="form-control-static"><a href="base_chains.js.html">base/chains.js</a>, <a href="base_chains.js.html#line-45">line 45</a></p>
 								</div>
@@ -308,9 +320,10 @@
 		</dt>
 <dd class="symbol-details member public  collapsible-symbol">
 	<div class="symbol-details-inner">
-			<div class="callout callout-primary"><h5>Description</h5>		<div class="description"><p>If you are using the open/close paradigm for an object that can kind of go dormant on <a href="base_chains.html#close">base/chains#close</a> and can be &quot;reopened&quot;<br>again later, here is where the &quot;open&quot; code will go.</p>
+			<div class="callout callout-primary"><h5>Descripción</h5>		<div class="description"><p>If you are using the open/close paradigm for an object that can kind of go dormant on <a href="base_chains.html#close">base/chains#close</a> and can be &quot;reopened&quot;<br>
+			again later, here is where the &quot;open&quot; code will go.</p>
 			<p>This used the <code>after</code> chain which means that the first one defined is the first one destroyed.</p></div>
-			</div>			<div class="callout callout-default"><h5>Details</h5>		<form class="form-horizontal details">
+			</div>			<div class="callout callout-default"><h5>Detalles</h5>		<form class="form-horizontal details">
 			
 			
 			
@@ -328,7 +341,7 @@
 			
 							<!-- source -->
 							<div class="form-group">
-								<label class="col-sm-3 control-label">Source</label>
+								<label class="col-sm-3 control-label">Fuente</label>
 								<div class="col-sm-9">
 									<p class="form-control-static"><a href="base_chains.js.html">base/chains.js</a>, <a href="base_chains.js.html#line-58">line 58</a></p>
 								</div>
@@ -337,7 +350,7 @@
 			
 							<!-- see -->
 							<div class="form-group">
-								<label class="col-sm-3 control-label">See</label>
+								<label class="col-sm-3 control-label">Ver</label>
 								<div class="col-sm-9">
 										<p class="form-control-static"><a href="base_chains.html#close">base/chains#close</a></p>
 								</div>
@@ -351,14 +364,11 @@
 							</article>
 					</section>
 			</div>
-				<div class="col-md-3 side-content">
-					<nav class="toc hidden-print hidden-sm hidden-xs"></nav>
-				</div>
 		</div>
 	</div>
 	<footer>
 				<div class="copyright">FooDoc Copyright © 2016 The contributors to the JSDoc3 and FooDoc projects.</div>
-			<div class="generated-by">Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.5.5</a> on 1st May 2018 using the <a href="https://github.com/steveush/foodoc">FooDoc template</a>.</div>
+			<div class="generated-by">Documentación generada por <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.6.3</a> a 27th Feb 2020 usando la <a href="https://github.com/steveush/foodoc">plantilla FooDoc</a>.</div>
 	</footer>
 	<script src="js/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
@@ -371,12 +381,12 @@
 				<div class="modal-content">
 					<div class="modal-header">
 						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-						<h4 class="modal-title">Search results</h4>
+						<h4 class="modal-title">Resultados de la búsqueda</h4>
 					</div>
 					<div class="modal-body" id="lunr-search-body">
 					</div>
 					<div class="modal-footer" id="lunr-search-footer">
-						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						<button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
 					</div>
 				</div><!-- /.modal-content -->
 			</div><!-- /.modal-dialog -->

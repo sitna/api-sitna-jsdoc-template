@@ -25,6 +25,7 @@
 				<a class="navbar-brand" href="index.html">
 					FooDoc
 				</a>
+	            <a href="tutorial-4-changes.html" class="navbar-version"></a>
 				<!-- displayed on small devices -->
 				<button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#topNavigation">
 					<span class="icon-bar"></span>
@@ -80,11 +81,12 @@
 											<li><a href="tutorial-drive-car.html">Drive Car</a></li>
 									</ul>
 								</li>
+	                <li><a href="https://github.com/sitna/api-sitna">Ver en Github</a></li>
 				</ul>
 					<!-- start:lunr-search-navbar.hbs -->
 					<form class="navbar-form navbar-right" role="search">
 						<div class="input-group">
-							<input type="text" class="form-control" placeholder="Search" id="lunr-search-input">
+							<input type="text" class="form-control" placeholder="Buscar" id="lunr-search-input">
 							<div class="input-group-btn">
 								<button class="btn btn-default" id="lunr-search-submit">
 									<i class="glyphicon glyphicon-search"></i>
@@ -103,9 +105,12 @@
 		</div>
 	<div class="container content">
 		<div class="row">
+			<div class="col-md-3 side-content">
+				<nav class="toc hidden-print hidden-sm hidden-xs"></nav>
+			</div>
 			<div class="col-md-9 main-content">
 						<ol class="breadcrumb">
-							<li><a href="index.html">Home</a></li>
+							<li><a href="index.html">Inicio</a></li>
 							<li><a href="list_mixin.html">Mixins</a></li>
 							<li class="active">mixins/bussable</li>
 						</ol>
@@ -126,8 +131,8 @@
 </dt>
 <dd class="symbol-details mixin  collapsible-symbol expanded" style="max-height: 9999px;">
 	<div class="symbol-details-inner">
-			<div class="callout callout-primary"><h5>Description</h5>		<div class="description classdesc"><p>Provides easy access to the system bus and provides some helper methods for doing so</p></div>
-			</div>			<div class="callout callout-default"><h5>Details</h5>		<form class="form-horizontal details">
+			<div class="callout callout-primary"><h5>Descripción</h5>		<div class="description classdesc"><p>Provides easy access to the system bus and provides some helper methods for doing so</p></div>
+			</div>			<div class="callout callout-default"><h5>Detalles</h5>		<form class="form-horizontal details">
 			
 			
 			
@@ -145,7 +150,7 @@
 			
 							<!-- source -->
 							<div class="form-group">
-								<label class="col-sm-3 control-label">Source</label>
+								<label class="col-sm-3 control-label">Fuente</label>
 								<div class="col-sm-9">
 									<p class="form-control-static"><a href="mixins_bussable.js.html">mixins/bussable.js</a>, <a href="mixins_bussable.js.html#line-18">line 18</a></p>
 								</div>
@@ -159,7 +164,7 @@
 </dd>
 							</dl>
 							<article class="secondary">
-									<h3>Members</h3>
+									<h3>Miembros</h3>
 									<dl class="symbol">
 											<hr/>
 											<dt class="symbol-title member private collapsible-symbol">
@@ -167,12 +172,12 @@
 		</dt>
 <dd class="symbol-details member private  collapsible-symbol">
 	<div class="symbol-details-inner">
-			<div class="callout callout-primary"><h5>Description</h5>		<div class="description"><p>The list of subscriptions maintained by the mixin</p></div>
-			</div>			<div class="callout callout-default"><h5>Details</h5>		<form class="form-horizontal details">
+			<div class="callout callout-primary"><h5>Descripción</h5>		<div class="description"><p>The list of subscriptions maintained by the mixin</p></div>
+			</div>			<div class="callout callout-default"><h5>Detalles</h5>		<form class="form-horizontal details">
 			
 							<!-- type -->
 							<div class="form-group">
-								<label class="col-sm-3 control-label">Type</label>
+								<label class="col-sm-3 control-label">Tipo</label>
 								<div class="col-sm-9">
 									<div class="form-control-static type-names"><span class="param-type">Array</span></div>
 								</div>
@@ -193,7 +198,7 @@
 			
 							<!-- source -->
 							<div class="form-group">
-								<label class="col-sm-3 control-label">Source</label>
+								<label class="col-sm-3 control-label">Fuente</label>
 								<div class="col-sm-9">
 									<p class="form-control-static"><a href="mixins_bussable.js.html">mixins/bussable.js</a>, <a href="mixins_bussable.js.html#line-21">line 21</a></p>
 								</div>
@@ -206,7 +211,7 @@
 			</div>	</div>
 </dd>
 									</dl>
-									<h3>Methods</h3>
+									<h3>Métodos</h3>
 									<dl class="symbol">
 											<hr/>
 											<dt class="symbol-title function public collapsible-symbol">
@@ -214,16 +219,16 @@
 		</dt>
 <dd class="symbol-details function public  collapsible-symbol">
 	<div class="symbol-details-inner">
-			<div class="callout callout-primary"><h5>Description</h5>		<div class="description"><p>Subscribe to an event</p></div>
+			<div class="callout callout-primary"><h5>Descripción</h5>		<div class="description"><p>Subscribe to an event</p></div>
 			</div>			<div class="callout callout-info">
-				<h5>Parameters</h5>
+				<h5>Parámetros</h5>
 				<table class="params table table-striped">
 					<thead>
 					<tr>
-							<th>Name</th>
+							<th>Nombre</th>
 						<th>Type</th>
-							<th>Attributes</th>
-						<th class="last">Description</th>
+							<th>Atributos</th>
+						<th class="last">Descripción</th>
 					</tr>
 					</thead>
 					<tbody>
@@ -262,7 +267,7 @@
 								</div>
 							</div>
 					</form>
-			</div>			<div class="callout callout-default"><h5>Details</h5>		<form class="form-horizontal details">
+			</div>			<div class="callout callout-default"><h5>Detalles</h5>		<form class="form-horizontal details">
 			
 			
 			
@@ -280,7 +285,7 @@
 			
 							<!-- source -->
 							<div class="form-group">
-								<label class="col-sm-3 control-label">Source</label>
+								<label class="col-sm-3 control-label">Fuente</label>
 								<div class="col-sm-9">
 									<p class="form-control-static"><a href="mixins_bussable.js.html">mixins/bussable.js</a>, <a href="mixins_bussable.js.html#line-40">line 40</a></p>
 								</div>
@@ -298,16 +303,16 @@
 		</dt>
 <dd class="symbol-details function public  collapsible-symbol">
 	<div class="symbol-details-inner">
-			<div class="callout callout-primary"><h5>Description</h5>		<div class="description"><p>Subscribe to an event once</p></div>
+			<div class="callout callout-primary"><h5>Descripción</h5>		<div class="description"><p>Subscribe to an event once</p></div>
 			</div>			<div class="callout callout-info">
-				<h5>Parameters</h5>
+				<h5>Parámetros</h5>
 				<table class="params table table-striped">
 					<thead>
 					<tr>
-							<th>Name</th>
+							<th>Nombre</th>
 						<th>Type</th>
-							<th>Attributes</th>
-						<th class="last">Description</th>
+							<th>Atributos</th>
+						<th class="last">Descripción</th>
 					</tr>
 					</thead>
 					<tbody>
@@ -346,7 +351,7 @@
 								</div>
 							</div>
 					</form>
-			</div>			<div class="callout callout-default"><h5>Details</h5>		<form class="form-horizontal details">
+			</div>			<div class="callout callout-default"><h5>Detalles</h5>		<form class="form-horizontal details">
 			
 			
 			
@@ -364,7 +369,7 @@
 			
 							<!-- source -->
 							<div class="form-group">
-								<label class="col-sm-3 control-label">Source</label>
+								<label class="col-sm-3 control-label">Fuente</label>
 								<div class="col-sm-9">
 									<p class="form-control-static"><a href="mixins_bussable.js.html">mixins/bussable.js</a>, <a href="mixins_bussable.js.html#line-54">line 54</a></p>
 								</div>
@@ -382,17 +387,17 @@
 		</dt>
 <dd class="symbol-details function public  collapsible-symbol">
 	<div class="symbol-details-inner">
-			<div class="callout callout-primary"><h5>Description</h5>		<div class="description"><p>Publish an event on the system bus</p></div>
+			<div class="callout callout-primary"><h5>Descripción</h5>		<div class="description"><p>Publish an event on the system bus</p></div>
 			</div>			<div class="callout callout-info">
-				<h5>Parameters</h5>
+				<h5>Parámetros</h5>
 				<table class="params table table-striped">
 					<thead>
 					<tr>
-							<th>Name</th>
+							<th>Nombre</th>
 						<th>Type</th>
-							<th>Attributes</th>
-							<th>Default</th>
-						<th class="last">Description</th>
+							<th>Atributos</th>
+							<th>Valor por defecto</th>
+						<th class="last">Descripción</th>
 					</tr>
 					</thead>
 					<tbody>
@@ -424,11 +429,11 @@
 										<table class="params table table-striped">
 											<thead>
 											<tr>
-													<th>Name</th>
+													<th>Nombre</th>
 												<th>Type</th>
-													<th>Attributes</th>
-													<th>Default</th>
-												<th class="last">Description</th>
+													<th>Atributos</th>
+													<th>Valor por defecto</th>
+												<th class="last">Descripción</th>
 											</tr>
 											</thead>
 											<tbody>
@@ -448,7 +453,7 @@
 					</tbody>
 				</table>
 			</div>
-			<div class="callout callout-default"><h5>Details</h5>		<form class="form-horizontal details">
+			<div class="callout callout-default"><h5>Detalles</h5>		<form class="form-horizontal details">
 			
 			
 			
@@ -466,7 +471,7 @@
 			
 							<!-- source -->
 							<div class="form-group">
-								<label class="col-sm-3 control-label">Source</label>
+								<label class="col-sm-3 control-label">Fuente</label>
 								<div class="col-sm-9">
 									<p class="form-control-static"><a href="mixins_bussable.js.html">mixins/bussable.js</a>, <a href="mixins_bussable.js.html#line-69">line 69</a></p>
 								</div>
@@ -484,15 +489,15 @@
 		</dt>
 <dd class="symbol-details function public  collapsible-symbol">
 	<div class="symbol-details-inner">
-			<div class="callout callout-primary"><h5>Description</h5>		<div class="description"><p>Get a subscription definition</p></div>
+			<div class="callout callout-primary"><h5>Descripción</h5>		<div class="description"><p>Get a subscription definition</p></div>
 			</div>			<div class="callout callout-info">
-				<h5>Parameters</h5>
+				<h5>Parámetros</h5>
 				<table class="params table table-striped">
 					<thead>
 					<tr>
-							<th>Name</th>
+							<th>Nombre</th>
 						<th>Type</th>
-						<th class="last">Description</th>
+						<th class="last">Descripción</th>
 					</tr>
 					</thead>
 					<tbody>
@@ -519,7 +524,7 @@
 								</div>
 							</div>
 					</form>
-			</div>			<div class="callout callout-default"><h5>Details</h5>		<form class="form-horizontal details">
+			</div>			<div class="callout callout-default"><h5>Detalles</h5>		<form class="form-horizontal details">
 			
 			
 			
@@ -537,7 +542,7 @@
 			
 							<!-- source -->
 							<div class="form-group">
-								<label class="col-sm-3 control-label">Source</label>
+								<label class="col-sm-3 control-label">Fuente</label>
 								<div class="col-sm-9">
 									<p class="form-control-static"><a href="mixins_bussable.js.html">mixins/bussable.js</a>, <a href="mixins_bussable.js.html#line-81">line 81</a></p>
 								</div>
@@ -555,8 +560,8 @@
 		</dt>
 <dd class="symbol-details function private  collapsible-symbol">
 	<div class="symbol-details-inner">
-			<div class="callout callout-primary"><h5>Description</h5>		<div class="description"><p>Gets rid of all subscriptions for this object.</p></div>
-			</div>			<div class="callout callout-default"><h5>Details</h5>		<form class="form-horizontal details">
+			<div class="callout callout-primary"><h5>Descripción</h5>		<div class="description"><p>Gets rid of all subscriptions for this object.</p></div>
+			</div>			<div class="callout callout-default"><h5>Detalles</h5>		<form class="form-horizontal details">
 			
 			
 			
@@ -574,7 +579,7 @@
 			
 							<!-- source -->
 							<div class="form-group">
-								<label class="col-sm-3 control-label">Source</label>
+								<label class="col-sm-3 control-label">Fuente</label>
 								<div class="col-sm-9">
 									<p class="form-control-static"><a href="mixins_bussable.js.html">mixins/bussable.js</a>, <a href="mixins_bussable.js.html#line-90">line 90</a></p>
 								</div>
@@ -590,14 +595,11 @@
 							</article>
 					</section>
 			</div>
-				<div class="col-md-3 side-content">
-					<nav class="toc hidden-print hidden-sm hidden-xs"></nav>
-				</div>
 		</div>
 	</div>
 	<footer>
 				<div class="copyright">FooDoc Copyright © 2016 The contributors to the JSDoc3 and FooDoc projects.</div>
-			<div class="generated-by">Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.5.5</a> on 1st May 2018 using the <a href="https://github.com/steveush/foodoc">FooDoc template</a>.</div>
+			<div class="generated-by">Documentación generada por <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.6.3</a> a 27th Feb 2020 usando la <a href="https://github.com/steveush/foodoc">plantilla FooDoc</a>.</div>
 	</footer>
 	<script src="js/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
@@ -610,12 +612,12 @@
 				<div class="modal-content">
 					<div class="modal-header">
 						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-						<h4 class="modal-title">Search results</h4>
+						<h4 class="modal-title">Resultados de la búsqueda</h4>
 					</div>
 					<div class="modal-body" id="lunr-search-body">
 					</div>
 					<div class="modal-footer" id="lunr-search-footer">
-						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						<button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
 					</div>
 				</div><!-- /.modal-content -->
 			</div><!-- /.modal-dialog -->

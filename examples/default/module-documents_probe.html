@@ -25,6 +25,7 @@
 				<a class="navbar-brand" href="index.html">
 					FooDoc
 				</a>
+	            <a href="tutorial-4-changes.html" class="navbar-version"></a>
 				<!-- displayed on small devices -->
 				<button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#topNavigation">
 					<span class="icon-bar"></span>
@@ -80,11 +81,12 @@
 											<li><a href="tutorial-drive-car.html">Drive Car</a></li>
 									</ul>
 								</li>
+	                <li><a href="https://github.com/sitna/api-sitna">Ver en Github</a></li>
 				</ul>
 					<!-- start:lunr-search-navbar.hbs -->
 					<form class="navbar-form navbar-right" role="search">
 						<div class="input-group">
-							<input type="text" class="form-control" placeholder="Search" id="lunr-search-input">
+							<input type="text" class="form-control" placeholder="Buscar" id="lunr-search-input">
 							<div class="input-group-btn">
 								<button class="btn btn-default" id="lunr-search-submit">
 									<i class="glyphicon glyphicon-search"></i>
@@ -103,9 +105,12 @@
 		</div>
 	<div class="container content">
 		<div class="row">
+			<div class="col-md-3 side-content">
+				<nav class="toc hidden-print hidden-sm hidden-xs"></nav>
+			</div>
 			<div class="col-md-9 main-content">
 						<ol class="breadcrumb">
-							<li><a href="index.html">Home</a></li>
+							<li><a href="index.html">Inicio</a></li>
 							<li><a href="list_module.html">Modules</a></li>
 							<li class="active">documents/probe</li>
 						</ol>
@@ -124,7 +129,7 @@
 			<dt class="symbol-title "></dt>
 			<dd class="symbol-details ">
 				<div class="symbol-details-inner">
-					<div class="callout callout-primary"><h5>Description</h5>		<div class="description"><p>Queries objects in memory using a mongo-like notation for reaching into objects and filtering for records</p></div>
+					<div class="callout callout-primary"><h5>Descripción</h5>		<div class="description"><p>Queries objects in memory using a mongo-like notation for reaching into objects and filtering for records</p></div>
 					</div>					<div class="callout callout-warning"><h5>Requires</h5>		<form class="form-horizontal requires">
 									<div class="form-group">
 										<label class="col-sm-3 control-label requires-type">module:lodash</label>
@@ -133,7 +138,7 @@
 										</div>
 									</div>
 							</form>
-					</div>					<div class="callout callout-default"><h5>Details</h5>		<form class="form-horizontal details">
+					</div>					<div class="callout callout-default"><h5>Detalles</h5>		<form class="form-horizontal details">
 					
 					
 					
@@ -148,7 +153,7 @@
 					
 									<!-- author -->
 									<div class="form-group">
-										<label class="col-sm-3 control-label">Author</label>
+										<label class="col-sm-3 control-label">Autor</label>
 										<div class="col-sm-9">
 												<p class="form-control-static">Terry Weiss</p>
 										</div>
@@ -157,7 +162,7 @@
 					
 									<!-- license -->
 									<div class="form-group">
-										<label class="col-sm-3 control-label">License</label>
+										<label class="col-sm-3 control-label">Licencia</label>
 										<div class="col-sm-9">
 											<p class="form-control-static">MIT</p>
 										</div>
@@ -165,7 +170,7 @@
 					
 									<!-- source -->
 									<div class="form-group">
-										<label class="col-sm-3 control-label">Source</label>
+										<label class="col-sm-3 control-label">Fuente</label>
 										<div class="col-sm-9">
 											<p class="form-control-static"><a href="documents_probe.js.html">documents/probe.js</a>, <a href="documents_probe.js.html#line-2">line 2</a></p>
 										</div>
@@ -179,7 +184,7 @@
 			</dd>
 		</dl>
 							<article class="secondary">
-									<h3>Classes</h3>
+									<h3>Clases</h3>
 									<dl class="symbol">
 											<hr/>
 											<dt class="symbol-title class public">
@@ -198,7 +203,7 @@
 	</div>
 </dd>
 									</dl>
-									<h3>Members</h3>
+									<h3>Miembros</h3>
 									<dl class="symbol">
 											<hr/>
 											<dt class="symbol-title member private collapsible-symbol">
@@ -206,12 +211,12 @@
 		</dt>
 <dd class="symbol-details member private  collapsible-symbol">
 	<div class="symbol-details-inner">
-			<div class="callout callout-primary"><h5>Description</h5>		<div class="description"><p>The list of operators that are nested within the expression object. These take the form <code>{path:{operator:operand}}</code></p></div>
-			</div>			<div class="callout callout-default"><h5>Details</h5>		<form class="form-horizontal details">
+			<div class="callout callout-primary"><h5>Descripción</h5>		<div class="description"><p>The list of operators that are nested within the expression object. These take the form <code>{path:{operator:operand}}</code></p></div>
+			</div>			<div class="callout callout-default"><h5>Detalles</h5>		<form class="form-horizontal details">
 			
 							<!-- type -->
 							<div class="form-group">
-								<label class="col-sm-3 control-label">Type</label>
+								<label class="col-sm-3 control-label">Tipo</label>
 								<div class="col-sm-9">
 									<div class="form-control-static type-names"><span class="param-type">array.&lt;string></span></div>
 								</div>
@@ -232,7 +237,7 @@
 			
 							<!-- source -->
 							<div class="form-group">
-								<label class="col-sm-3 control-label">Source</label>
+								<label class="col-sm-3 control-label">Fuente</label>
 								<div class="col-sm-9">
 									<p class="form-control-static"><a href="documents_probe.js.html">documents/probe.js</a>, <a href="documents_probe.js.html#line-17">line 17</a></p>
 								</div>
@@ -250,12 +255,12 @@
 		</dt>
 <dd class="symbol-details member private  collapsible-symbol">
 	<div class="symbol-details-inner">
-			<div class="callout callout-primary"><h5>Description</h5>		<div class="description"><p>The list of operators that prefix the expression object. These take the form <code>{operator:{operands}}</code> or <code>{operator: [operands]}</code></p></div>
-			</div>			<div class="callout callout-default"><h5>Details</h5>		<form class="form-horizontal details">
+			<div class="callout callout-primary"><h5>Descripción</h5>		<div class="description"><p>The list of operators that prefix the expression object. These take the form <code>{operator:{operands}}</code> or <code>{operator: [operands]}</code></p></div>
+			</div>			<div class="callout callout-default"><h5>Detalles</h5>		<form class="form-horizontal details">
 			
 							<!-- type -->
 							<div class="form-group">
-								<label class="col-sm-3 control-label">Type</label>
+								<label class="col-sm-3 control-label">Tipo</label>
 								<div class="col-sm-9">
 									<div class="form-control-static type-names"><span class="param-type">array.&lt;string></span></div>
 								</div>
@@ -276,7 +281,7 @@
 			
 							<!-- source -->
 							<div class="form-group">
-								<label class="col-sm-3 control-label">Source</label>
+								<label class="col-sm-3 control-label">Fuente</label>
 								<div class="col-sm-9">
 									<p class="form-control-static"><a href="documents_probe.js.html">documents/probe.js</a>, <a href="documents_probe.js.html#line-24">line 24</a></p>
 								</div>
@@ -294,12 +299,12 @@
 		</dt>
 <dd class="symbol-details member public  collapsible-symbol">
 	<div class="symbol-details-inner">
-			<div class="callout callout-primary"><h5>Description</h5>		<div class="description"><p>The delimiter to use when splitting an expression</p></div>
-			</div>			<div class="callout callout-default"><h5>Details</h5>		<form class="form-horizontal details">
+			<div class="callout callout-primary"><h5>Descripción</h5>		<div class="description"><p>The delimiter to use when splitting an expression</p></div>
+			</div>			<div class="callout callout-default"><h5>Detalles</h5>		<form class="form-horizontal details">
 			
 							<!-- type -->
 							<div class="form-group">
-								<label class="col-sm-3 control-label">Type</label>
+								<label class="col-sm-3 control-label">Tipo</label>
 								<div class="col-sm-9">
 									<div class="form-control-static type-names"><span class="param-type">string</span></div>
 								</div>
@@ -307,7 +312,7 @@
 			
 							<!-- defaultvalue -->
 							<div class="form-group">
-								<label class="col-sm-3 control-label">Default Value</label>
+								<label class="col-sm-3 control-label">Valor por defecto</label>
 								<div class="col-sm-9">
 									<p class="form-control-static">&#x27;.&#x27;</p>
 								</div>
@@ -327,7 +332,7 @@
 			
 							<!-- source -->
 							<div class="form-group">
-								<label class="col-sm-3 control-label">Source</label>
+								<label class="col-sm-3 control-label">Fuente</label>
 								<div class="col-sm-9">
 									<p class="form-control-static"><a href="documents_probe.js.html">documents/probe.js</a>, <a href="documents_probe.js.html#line-154">line 154</a></p>
 								</div>
@@ -345,8 +350,8 @@
 		</dt>
 <dd class="symbol-details member private  collapsible-symbol">
 	<div class="symbol-details-inner">
-			<div class="callout callout-primary"><h5>Description</h5>		<div class="description"><p>The query operations that evaluate directly from an operation</p></div>
-			</div>			<div class="callout callout-default"><h5>Details</h5>		<form class="form-horizontal details">
+			<div class="callout callout-primary"><h5>Descripción</h5>		<div class="description"><p>The query operations that evaluate directly from an operation</p></div>
+			</div>			<div class="callout callout-default"><h5>Detalles</h5>		<form class="form-horizontal details">
 			
 			
 			
@@ -364,7 +369,7 @@
 			
 							<!-- source -->
 							<div class="form-group">
-								<label class="col-sm-3 control-label">Source</label>
+								<label class="col-sm-3 control-label">Fuente</label>
 								<div class="col-sm-9">
 									<p class="form-control-static"><a href="documents_probe.js.html">documents/probe.js</a>, <a href="documents_probe.js.html#line-346">line 346</a></p>
 								</div>
@@ -377,7 +382,7 @@
 			</div>	</div>
 </dd>
 									</dl>
-									<h3>Methods</h3>
+									<h3>Métodos</h3>
 									<dl class="symbol">
 											<hr/>
 											<dt class="symbol-title function private collapsible-symbol">
@@ -385,15 +390,15 @@
 		</dt>
 <dd class="symbol-details function private  collapsible-symbol">
 	<div class="symbol-details-inner">
-			<div class="callout callout-primary"><h5>Description</h5>		<div class="description"><p>Processes a nested operator by picking the operator out of the expression object. Returns a formatted object that can be used for querying</p></div>
+			<div class="callout callout-primary"><h5>Descripción</h5>		<div class="description"><p>Processes a nested operator by picking the operator out of the expression object. Returns a formatted object that can be used for querying</p></div>
 			</div>			<div class="callout callout-info">
-				<h5>Parameters</h5>
+				<h5>Parámetros</h5>
 				<table class="params table table-striped">
 					<thead>
 					<tr>
-							<th>Name</th>
+							<th>Nombre</th>
 						<th>Type</th>
-						<th class="last">Description</th>
+						<th class="last">Descripción</th>
 					</tr>
 					</thead>
 					<tbody>
@@ -422,7 +427,7 @@
 								</div>
 							</div>
 					</form>
-			</div>			<div class="callout callout-default"><h5>Details</h5>		<form class="form-horizontal details">
+			</div>			<div class="callout callout-default"><h5>Detalles</h5>		<form class="form-horizontal details">
 			
 			
 			
@@ -440,7 +445,7 @@
 			
 							<!-- source -->
 							<div class="form-group">
-								<label class="col-sm-3 control-label">Source</label>
+								<label class="col-sm-3 control-label">Fuente</label>
 								<div class="col-sm-9">
 									<p class="form-control-static"><a href="documents_probe.js.html">documents/probe.js</a>, <a href="documents_probe.js.html#line-33">line 33</a></p>
 								</div>
@@ -458,15 +463,15 @@
 		</dt>
 <dd class="symbol-details function private  collapsible-symbol">
 	<div class="symbol-details-inner">
-			<div class="callout callout-primary"><h5>Description</h5>		<div class="description"><p>Interrogates a single query expression object and calls the appropriate handler for its contents</p></div>
+			<div class="callout callout-primary"><h5>Descripción</h5>		<div class="description"><p>Interrogates a single query expression object and calls the appropriate handler for its contents</p></div>
 			</div>			<div class="callout callout-info">
-				<h5>Parameters</h5>
+				<h5>Parámetros</h5>
 				<table class="params table table-striped">
 					<thead>
 					<tr>
-							<th>Name</th>
+							<th>Nombre</th>
 						<th>Type</th>
-						<th class="last">Description</th>
+						<th class="last">Descripción</th>
 					</tr>
 					</thead>
 					<tbody>
@@ -495,7 +500,7 @@
 								</div>
 							</div>
 					</form>
-			</div>			<div class="callout callout-default"><h5>Details</h5>		<form class="form-horizontal details">
+			</div>			<div class="callout callout-default"><h5>Detalles</h5>		<form class="form-horizontal details">
 			
 			
 			
@@ -513,7 +518,7 @@
 			
 							<!-- source -->
 							<div class="form-group">
-								<label class="col-sm-3 control-label">Source</label>
+								<label class="col-sm-3 control-label">Fuente</label>
 								<div class="col-sm-9">
 									<p class="form-control-static"><a href="documents_probe.js.html">documents/probe.js</a>, <a href="documents_probe.js.html#line-49">line 49</a></p>
 								</div>
@@ -531,15 +536,15 @@
 		</dt>
 <dd class="symbol-details function private  collapsible-symbol">
 	<div class="symbol-details-inner">
-			<div class="callout callout-primary"><h5>Description</h5>		<div class="description"><p>Processes a prefixed operator and then passes control to the nested operator method to pick out the contained values</p></div>
+			<div class="callout callout-primary"><h5>Descripción</h5>		<div class="description"><p>Processes a prefixed operator and then passes control to the nested operator method to pick out the contained values</p></div>
 			</div>			<div class="callout callout-info">
-				<h5>Parameters</h5>
+				<h5>Parámetros</h5>
 				<table class="params table table-striped">
 					<thead>
 					<tr>
-							<th>Name</th>
+							<th>Nombre</th>
 						<th>Type</th>
-						<th class="last">Description</th>
+						<th class="last">Descripción</th>
 					</tr>
 					</thead>
 					<tbody>
@@ -568,7 +573,7 @@
 								</div>
 							</div>
 					</form>
-			</div>			<div class="callout callout-default"><h5>Details</h5>		<form class="form-horizontal details">
+			</div>			<div class="callout callout-default"><h5>Detalles</h5>		<form class="form-horizontal details">
 			
 			
 			
@@ -586,7 +591,7 @@
 			
 							<!-- source -->
 							<div class="form-group">
-								<label class="col-sm-3 control-label">Source</label>
+								<label class="col-sm-3 control-label">Fuente</label>
 								<div class="col-sm-9">
 									<p class="form-control-static"><a href="documents_probe.js.html">documents/probe.js</a>, <a href="documents_probe.js.html#line-89">line 89</a></p>
 								</div>
@@ -604,15 +609,15 @@
 		</dt>
 <dd class="symbol-details function private  collapsible-symbol">
 	<div class="symbol-details-inner">
-			<div class="callout callout-primary"><h5>Description</h5>		<div class="description"><p>Parses a query request and builds an object that can used to process a query target</p></div>
+			<div class="callout callout-primary"><h5>Descripción</h5>		<div class="description"><p>Parses a query request and builds an object that can used to process a query target</p></div>
 			</div>			<div class="callout callout-info">
-				<h5>Parameters</h5>
+				<h5>Parámetros</h5>
 				<table class="params table table-striped">
 					<thead>
 					<tr>
-							<th>Name</th>
+							<th>Nombre</th>
 						<th>Type</th>
-						<th class="last">Description</th>
+						<th class="last">Descripción</th>
 					</tr>
 					</thead>
 					<tbody>
@@ -634,7 +639,7 @@
 								</div>
 							</div>
 					</form>
-			</div>			<div class="callout callout-default"><h5>Details</h5>		<form class="form-horizontal details">
+			</div>			<div class="callout callout-default"><h5>Detalles</h5>		<form class="form-horizontal details">
 			
 			
 			
@@ -652,7 +657,7 @@
 			
 							<!-- source -->
 							<div class="form-group">
-								<label class="col-sm-3 control-label">Source</label>
+								<label class="col-sm-3 control-label">Fuente</label>
 								<div class="col-sm-9">
 									<p class="form-control-static"><a href="documents_probe.js.html">documents/probe.js</a>, <a href="documents_probe.js.html#line-121">line 121</a></p>
 								</div>
@@ -670,15 +675,15 @@
 		</dt>
 <dd class="symbol-details function private  collapsible-symbol">
 	<div class="symbol-details-inner">
-			<div class="callout callout-primary"><h5>Description</h5>		<div class="description"><p>Splits a path expression into its component parts</p></div>
+			<div class="callout callout-primary"><h5>Descripción</h5>		<div class="description"><p>Splits a path expression into its component parts</p></div>
 			</div>			<div class="callout callout-info">
-				<h5>Parameters</h5>
+				<h5>Parámetros</h5>
 				<table class="params table table-striped">
 					<thead>
 					<tr>
-							<th>Name</th>
+							<th>Nombre</th>
 						<th>Type</th>
-						<th class="last">Description</th>
+						<th class="last">Descripción</th>
 					</tr>
 					</thead>
 					<tbody>
@@ -700,7 +705,7 @@
 								</div>
 							</div>
 					</form>
-			</div>			<div class="callout callout-default"><h5>Details</h5>		<form class="form-horizontal details">
+			</div>			<div class="callout callout-default"><h5>Detalles</h5>		<form class="form-horizontal details">
 			
 			
 			
@@ -718,7 +723,7 @@
 			
 							<!-- source -->
 							<div class="form-group">
-								<label class="col-sm-3 control-label">Source</label>
+								<label class="col-sm-3 control-label">Fuente</label>
 								<div class="col-sm-9">
 									<p class="form-control-static"><a href="documents_probe.js.html">documents/probe.js</a>, <a href="documents_probe.js.html#line-163">line 163</a></p>
 								</div>
@@ -736,15 +741,15 @@
 		</dt>
 <dd class="symbol-details function private  collapsible-symbol">
 	<div class="symbol-details-inner">
-			<div class="callout callout-primary"><h5>Description</h5>		<div class="description"><p>Reaches into an object and allows you to get at a value deeply nested in an object</p></div>
+			<div class="callout callout-primary"><h5>Descripción</h5>		<div class="description"><p>Reaches into an object and allows you to get at a value deeply nested in an object</p></div>
 			</div>			<div class="callout callout-info">
-				<h5>Parameters</h5>
+				<h5>Parámetros</h5>
 				<table class="params table table-striped">
 					<thead>
 					<tr>
-							<th>Name</th>
+							<th>Nombre</th>
 						<th>Type</th>
-						<th class="last">Description</th>
+						<th class="last">Descripción</th>
 					</tr>
 					</thead>
 					<tbody>
@@ -773,7 +778,7 @@
 								</div>
 							</div>
 					</form>
-			</div>			<div class="callout callout-default"><h5>Details</h5>		<form class="form-horizontal details">
+			</div>			<div class="callout callout-default"><h5>Detalles</h5>		<form class="form-horizontal details">
 			
 			
 			
@@ -791,7 +796,7 @@
 			
 							<!-- source -->
 							<div class="form-group">
-								<label class="col-sm-3 control-label">Source</label>
+								<label class="col-sm-3 control-label">Fuente</label>
 								<div class="col-sm-9">
 									<p class="form-control-static"><a href="documents_probe.js.html">documents/probe.js</a>, <a href="documents_probe.js.html#line-174">line 174</a></p>
 								</div>
@@ -809,15 +814,15 @@
 		</dt>
 <dd class="symbol-details function private  collapsible-symbol">
 	<div class="symbol-details-inner">
-			<div class="callout callout-primary"><h5>Description</h5>		<div class="description"><p>This will write the value into a record at the path, creating intervening objects if they don't exist</p></div>
+			<div class="callout callout-primary"><h5>Descripción</h5>		<div class="description"><p>This will write the value into a record at the path, creating intervening objects if they don't exist</p></div>
 			</div>			<div class="callout callout-info">
-				<h5>Parameters</h5>
+				<h5>Parámetros</h5>
 				<table class="params table table-striped">
 					<thead>
 					<tr>
-							<th>Name</th>
+							<th>Nombre</th>
 						<th>Type</th>
-						<th class="last">Description</th>
+						<th class="last">Descripción</th>
 					</tr>
 					</thead>
 					<tbody>
@@ -852,7 +857,7 @@
 					</tbody>
 				</table>
 			</div>
-			<div class="callout callout-default"><h5>Details</h5>		<form class="form-horizontal details">
+			<div class="callout callout-default"><h5>Detalles</h5>		<form class="form-horizontal details">
 			
 			
 			
@@ -870,7 +875,7 @@
 			
 							<!-- source -->
 							<div class="form-group">
-								<label class="col-sm-3 control-label">Source</label>
+								<label class="col-sm-3 control-label">Fuente</label>
 								<div class="col-sm-9">
 									<p class="form-control-static"><a href="documents_probe.js.html">documents/probe.js</a>, <a href="documents_probe.js.html#line-199">line 199</a></p>
 								</div>
@@ -888,16 +893,16 @@
 		</dt>
 <dd class="symbol-details function private  collapsible-symbol">
 	<div class="symbol-details-inner">
-			<div class="callout callout-primary"><h5>Description</h5>		<div class="description"><p>Executes a query by traversing a document and evaluating each record</p></div>
+			<div class="callout callout-primary"><h5>Descripción</h5>		<div class="description"><p>Executes a query by traversing a document and evaluating each record</p></div>
 			</div>			<div class="callout callout-info">
-				<h5>Parameters</h5>
+				<h5>Parámetros</h5>
 				<table class="params table table-striped">
 					<thead>
 					<tr>
-							<th>Name</th>
+							<th>Nombre</th>
 						<th>Type</th>
-							<th>Attributes</th>
-						<th class="last">Description</th>
+							<th>Atributos</th>
+						<th class="last">Descripción</th>
 					</tr>
 					</thead>
 					<tbody>
@@ -936,7 +941,7 @@
 					</tbody>
 				</table>
 			</div>
-			<div class="callout callout-default"><h5>Details</h5>		<form class="form-horizontal details">
+			<div class="callout callout-default"><h5>Detalles</h5>		<form class="form-horizontal details">
 			
 			
 			
@@ -954,7 +959,7 @@
 			
 							<!-- source -->
 							<div class="form-group">
-								<label class="col-sm-3 control-label">Source</label>
+								<label class="col-sm-3 control-label">Fuente</label>
 								<div class="col-sm-9">
 									<p class="form-control-static"><a href="documents_probe.js.html">documents/probe.js</a>, <a href="documents_probe.js.html#line-698">line 698</a></p>
 								</div>
@@ -972,15 +977,15 @@
 		</dt>
 <dd class="symbol-details function public  collapsible-symbol">
 	<div class="symbol-details-inner">
-			<div class="callout callout-primary"><h5>Description</h5>		<div class="description"><p>Updates all records in obj that match the query. See <a href="module-documents_probe.updateOperators.html">module:documents/probe.updateOperators</a> for the operators that are supported.</p></div>
+			<div class="callout callout-primary"><h5>Descripción</h5>		<div class="description"><p>Updates all records in obj that match the query. See <a href="module-documents_probe.updateOperators.html">module:documents/probe.updateOperators</a> for the operators that are supported.</p></div>
 			</div>			<div class="callout callout-info">
-				<h5>Parameters</h5>
+				<h5>Parámetros</h5>
 				<table class="params table table-striped">
 					<thead>
 					<tr>
-							<th>Name</th>
+							<th>Nombre</th>
 						<th>Type</th>
-						<th class="last">Description</th>
+						<th class="last">Descripción</th>
 					</tr>
 					</thead>
 					<tbody>
@@ -1008,7 +1013,7 @@
 					</tbody>
 				</table>
 			</div>
-			<div class="callout callout-default"><h5>Details</h5>		<form class="form-horizontal details">
+			<div class="callout callout-default"><h5>Detalles</h5>		<form class="form-horizontal details">
 			
 			
 			
@@ -1026,7 +1031,7 @@
 			
 							<!-- source -->
 							<div class="form-group">
-								<label class="col-sm-3 control-label">Source</label>
+								<label class="col-sm-3 control-label">Fuente</label>
 								<div class="col-sm-9">
 									<p class="form-control-static"><a href="documents_probe.js.html">documents/probe.js</a>, <a href="documents_probe.js.html#line-734">line 734</a></p>
 								</div>
@@ -1044,15 +1049,15 @@
 		</dt>
 <dd class="symbol-details function public  collapsible-symbol">
 	<div class="symbol-details-inner">
-			<div class="callout callout-primary"><h5>Description</h5>		<div class="description"><p>Find all records that match a query</p></div>
+			<div class="callout callout-primary"><h5>Descripción</h5>		<div class="description"><p>Find all records that match a query</p></div>
 			</div>			<div class="callout callout-info">
-				<h5>Parameters</h5>
+				<h5>Parámetros</h5>
 				<table class="params table table-striped">
 					<thead>
 					<tr>
-							<th>Name</th>
+							<th>Nombre</th>
 						<th>Type</th>
-						<th class="last">Description</th>
+						<th class="last">Descripción</th>
 					</tr>
 					</thead>
 					<tbody>
@@ -1081,7 +1086,7 @@
 								</div>
 							</div>
 					</form>
-			</div>			<div class="callout callout-default"><h5>Details</h5>		<form class="form-horizontal details">
+			</div>			<div class="callout callout-default"><h5>Detalles</h5>		<form class="form-horizontal details">
 			
 			
 			
@@ -1099,7 +1104,7 @@
 			
 							<!-- source -->
 							<div class="form-group">
-								<label class="col-sm-3 control-label">Source</label>
+								<label class="col-sm-3 control-label">Fuente</label>
 								<div class="col-sm-9">
 									<p class="form-control-static"><a href="documents_probe.js.html">documents/probe.js</a>, <a href="documents_probe.js.html#line-750">line 750</a></p>
 								</div>
@@ -1117,15 +1122,16 @@
 		</dt>
 <dd class="symbol-details function public  collapsible-symbol">
 	<div class="symbol-details-inner">
-			<div class="callout callout-primary"><h5>Description</h5>		<div class="description"><p>Find all records that match a query and returns the keys for those items. This is similar to <a href="module-documents_probe.html#.find">module:documents/probe.find</a> but instead of returning<br> records, returns the keys. If <code>obj</code> is an object it will return the hash key. If 'obj' is an array, it will return the index</p></div>
+			<div class="callout callout-primary"><h5>Descripción</h5>		<div class="description"><p>Find all records that match a query and returns the keys for those items. This is similar to <a href="module-documents_probe.html#.find">module:documents/probe.find</a> but instead of returning<br>
+			records, returns the keys. If <code>obj</code> is an object it will return the hash key. If 'obj' is an array, it will return the index</p></div>
 			</div>			<div class="callout callout-info">
-				<h5>Parameters</h5>
+				<h5>Parámetros</h5>
 				<table class="params table table-striped">
 					<thead>
 					<tr>
-							<th>Name</th>
+							<th>Nombre</th>
 						<th>Type</th>
-						<th class="last">Description</th>
+						<th class="last">Descripción</th>
 					</tr>
 					</thead>
 					<tbody>
@@ -1154,7 +1160,7 @@
 								</div>
 							</div>
 					</form>
-			</div>			<div class="callout callout-default"><h5>Details</h5>		<form class="form-horizontal details">
+			</div>			<div class="callout callout-default"><h5>Detalles</h5>		<form class="form-horizontal details">
 			
 			
 			
@@ -1172,7 +1178,7 @@
 			
 							<!-- source -->
 							<div class="form-group">
-								<label class="col-sm-3 control-label">Source</label>
+								<label class="col-sm-3 control-label">Fuente</label>
 								<div class="col-sm-9">
 									<p class="form-control-static"><a href="documents_probe.js.html">documents/probe.js</a>, <a href="documents_probe.js.html#line-769">line 769</a></p>
 								</div>
@@ -1190,15 +1196,15 @@
 		</dt>
 <dd class="symbol-details function public  collapsible-symbol">
 	<div class="symbol-details-inner">
-			<div class="callout callout-primary"><h5>Description</h5>		<div class="description"><p>Returns the first record that matches the query. Aliased as <code>seek</code>.</p></div>
+			<div class="callout callout-primary"><h5>Descripción</h5>		<div class="description"><p>Returns the first record that matches the query. Aliased as <code>seek</code>.</p></div>
 			</div>			<div class="callout callout-info">
-				<h5>Parameters</h5>
+				<h5>Parámetros</h5>
 				<table class="params table table-striped">
 					<thead>
 					<tr>
-							<th>Name</th>
+							<th>Nombre</th>
 						<th>Type</th>
-						<th class="last">Description</th>
+						<th class="last">Descripción</th>
 					</tr>
 					</thead>
 					<tbody>
@@ -1227,7 +1233,7 @@
 								</div>
 							</div>
 					</form>
-			</div>			<div class="callout callout-default"><h5>Details</h5>		<form class="form-horizontal details">
+			</div>			<div class="callout callout-default"><h5>Detalles</h5>		<form class="form-horizontal details">
 			
 			
 			
@@ -1245,7 +1251,7 @@
 			
 							<!-- source -->
 							<div class="form-group">
-								<label class="col-sm-3 control-label">Source</label>
+								<label class="col-sm-3 control-label">Fuente</label>
 								<div class="col-sm-9">
 									<p class="form-control-static"><a href="documents_probe.js.html">documents/probe.js</a>, <a href="documents_probe.js.html#line-788">line 788</a></p>
 								</div>
@@ -1263,15 +1269,16 @@
 		</dt>
 <dd class="symbol-details function public  collapsible-symbol">
 	<div class="symbol-details-inner">
-			<div class="callout callout-primary"><h5>Description</h5>		<div class="description"><p>Returns the first record that matches the query and returns its key or index depending on whether <code>obj</code> is an object or array respectively.<br> Aliased as <code>seekKey</code>.</p></div>
+			<div class="callout callout-primary"><h5>Descripción</h5>		<div class="description"><p>Returns the first record that matches the query and returns its key or index depending on whether <code>obj</code> is an object or array respectively.<br>
+			Aliased as <code>seekKey</code>.</p></div>
 			</div>			<div class="callout callout-info">
-				<h5>Parameters</h5>
+				<h5>Parámetros</h5>
 				<table class="params table table-striped">
 					<thead>
 					<tr>
-							<th>Name</th>
+							<th>Nombre</th>
 						<th>Type</th>
-						<th class="last">Description</th>
+						<th class="last">Descripción</th>
 					</tr>
 					</thead>
 					<tbody>
@@ -1300,7 +1307,7 @@
 								</div>
 							</div>
 					</form>
-			</div>			<div class="callout callout-default"><h5>Details</h5>		<form class="form-horizontal details">
+			</div>			<div class="callout callout-default"><h5>Detalles</h5>		<form class="form-horizontal details">
 			
 			
 			
@@ -1318,7 +1325,7 @@
 			
 							<!-- source -->
 							<div class="form-group">
-								<label class="col-sm-3 control-label">Source</label>
+								<label class="col-sm-3 control-label">Fuente</label>
 								<div class="col-sm-9">
 									<p class="form-control-static"><a href="documents_probe.js.html">documents/probe.js</a>, <a href="documents_probe.js.html#line-813">line 813</a></p>
 								</div>
@@ -1336,15 +1343,15 @@
 		</dt>
 <dd class="symbol-details function public  collapsible-symbol">
 	<div class="symbol-details-inner">
-			<div class="callout callout-primary"><h5>Description</h5>		<div class="description"><p>Remove all items in the object/array that match the query</p></div>
+			<div class="callout callout-primary"><h5>Descripción</h5>		<div class="description"><p>Remove all items in the object/array that match the query</p></div>
 			</div>			<div class="callout callout-info">
-				<h5>Parameters</h5>
+				<h5>Parámetros</h5>
 				<table class="params table table-striped">
 					<thead>
 					<tr>
-							<th>Name</th>
+							<th>Nombre</th>
 						<th>Type</th>
-						<th class="last">Description</th>
+						<th class="last">Descripción</th>
 					</tr>
 					</thead>
 					<tbody>
@@ -1373,7 +1380,7 @@
 								</div>
 							</div>
 					</form>
-			</div>			<div class="callout callout-default"><h5>Details</h5>		<form class="form-horizontal details">
+			</div>			<div class="callout callout-default"><h5>Detalles</h5>		<form class="form-horizontal details">
 			
 			
 			
@@ -1391,7 +1398,7 @@
 			
 							<!-- source -->
 							<div class="form-group">
-								<label class="col-sm-3 control-label">Source</label>
+								<label class="col-sm-3 control-label">Fuente</label>
 								<div class="col-sm-9">
 									<p class="form-control-static"><a href="documents_probe.js.html">documents/probe.js</a>, <a href="documents_probe.js.html#line-838">line 838</a></p>
 								</div>
@@ -1409,15 +1416,15 @@
 		</dt>
 <dd class="symbol-details function public  collapsible-symbol">
 	<div class="symbol-details-inner">
-			<div class="callout callout-primary"><h5>Description</h5>		<div class="description"><p>Returns true if all items match the query</p></div>
+			<div class="callout callout-primary"><h5>Descripción</h5>		<div class="description"><p>Returns true if all items match the query</p></div>
 			</div>			<div class="callout callout-info">
-				<h5>Parameters</h5>
+				<h5>Parámetros</h5>
 				<table class="params table table-striped">
 					<thead>
 					<tr>
-							<th>Name</th>
+							<th>Nombre</th>
 						<th>Type</th>
-						<th class="last">Description</th>
+						<th class="last">Descripción</th>
 					</tr>
 					</thead>
 					<tbody>
@@ -1446,7 +1453,7 @@
 								</div>
 							</div>
 					</form>
-			</div>			<div class="callout callout-default"><h5>Details</h5>		<form class="form-horizontal details">
+			</div>			<div class="callout callout-default"><h5>Detalles</h5>		<form class="form-horizontal details">
 			
 			
 			
@@ -1464,7 +1471,7 @@
 			
 							<!-- source -->
 							<div class="form-group">
-								<label class="col-sm-3 control-label">Source</label>
+								<label class="col-sm-3 control-label">Fuente</label>
 								<div class="col-sm-9">
 									<p class="form-control-static"><a href="documents_probe.js.html">documents/probe.js</a>, <a href="documents_probe.js.html#line-871">line 871</a></p>
 								</div>
@@ -1482,15 +1489,15 @@
 		</dt>
 <dd class="symbol-details function public  collapsible-symbol">
 	<div class="symbol-details-inner">
-			<div class="callout callout-primary"><h5>Description</h5>		<div class="description"><p>Returns true if any of the items match the query</p></div>
+			<div class="callout callout-primary"><h5>Descripción</h5>		<div class="description"><p>Returns true if any of the items match the query</p></div>
 			</div>			<div class="callout callout-info">
-				<h5>Parameters</h5>
+				<h5>Parámetros</h5>
 				<table class="params table table-striped">
 					<thead>
 					<tr>
-							<th>Name</th>
+							<th>Nombre</th>
 						<th>Type</th>
-						<th class="last">Description</th>
+						<th class="last">Descripción</th>
 					</tr>
 					</thead>
 					<tbody>
@@ -1519,7 +1526,7 @@
 								</div>
 							</div>
 					</form>
-			</div>			<div class="callout callout-default"><h5>Details</h5>		<form class="form-horizontal details">
+			</div>			<div class="callout callout-default"><h5>Detalles</h5>		<form class="form-horizontal details">
 			
 			
 			
@@ -1537,7 +1544,7 @@
 			
 							<!-- source -->
 							<div class="form-group">
-								<label class="col-sm-3 control-label">Source</label>
+								<label class="col-sm-3 control-label">Fuente</label>
 								<div class="col-sm-9">
 									<p class="form-control-static"><a href="documents_probe.js.html">documents/probe.js</a>, <a href="documents_probe.js.html#line-882">line 882</a></p>
 								</div>
@@ -1555,15 +1562,15 @@
 		</dt>
 <dd class="symbol-details function public  collapsible-symbol">
 	<div class="symbol-details-inner">
-			<div class="callout callout-primary"><h5>Description</h5>		<div class="description"><p>Returns the set of unique records that match a query</p></div>
+			<div class="callout callout-primary"><h5>Descripción</h5>		<div class="description"><p>Returns the set of unique records that match a query</p></div>
 			</div>			<div class="callout callout-info">
-				<h5>Parameters</h5>
+				<h5>Parámetros</h5>
 				<table class="params table table-striped">
 					<thead>
 					<tr>
-							<th>Name</th>
+							<th>Nombre</th>
 						<th>Type</th>
-						<th class="last">Description</th>
+						<th class="last">Descripción</th>
 					</tr>
 					</thead>
 					<tbody>
@@ -1592,7 +1599,7 @@
 								</div>
 							</div>
 					</form>
-			</div>			<div class="callout callout-default"><h5>Details</h5>		<form class="form-horizontal details">
+			</div>			<div class="callout callout-default"><h5>Detalles</h5>		<form class="form-horizontal details">
 			
 			
 			
@@ -1610,7 +1617,7 @@
 			
 							<!-- source -->
 							<div class="form-group">
-								<label class="col-sm-3 control-label">Source</label>
+								<label class="col-sm-3 control-label">Fuente</label>
 								<div class="col-sm-9">
 									<p class="form-control-static"><a href="documents_probe.js.html">documents/probe.js</a>, <a href="documents_probe.js.html#line-902">line 902</a></p>
 								</div>
@@ -1628,15 +1635,16 @@
 		</dt>
 <dd class="symbol-details function public  collapsible-symbol">
 	<div class="symbol-details-inner">
-			<div class="callout callout-primary"><h5>Description</h5>		<div class="description"><p>This will write the value into a record at the path, creating intervening objects if they don't exist. This does not work as filtered<br> update and is meant to be used on a single record. It is a nice way of setting a property at an arbitrary depth at will.</p></div>
+			<div class="callout callout-primary"><h5>Descripción</h5>		<div class="description"><p>This will write the value into a record at the path, creating intervening objects if they don't exist. This does not work as filtered<br>
+			update and is meant to be used on a single record. It is a nice way of setting a property at an arbitrary depth at will.</p></div>
 			</div>			<div class="callout callout-info">
-				<h5>Parameters</h5>
+				<h5>Parámetros</h5>
 				<table class="params table table-striped">
 					<thead>
 					<tr>
-							<th>Name</th>
+							<th>Nombre</th>
 						<th>Type</th>
-						<th class="last">Description</th>
+						<th class="last">Descripción</th>
 					</tr>
 					</thead>
 					<tbody>
@@ -1671,7 +1679,7 @@
 					</tbody>
 				</table>
 			</div>
-			<div class="callout callout-default"><h5>Details</h5>		<form class="form-horizontal details">
+			<div class="callout callout-default"><h5>Detalles</h5>		<form class="form-horizontal details">
 			
 			
 			
@@ -1689,7 +1697,7 @@
 			
 							<!-- source -->
 							<div class="form-group">
-								<label class="col-sm-3 control-label">Source</label>
+								<label class="col-sm-3 control-label">Fuente</label>
 								<div class="col-sm-9">
 									<p class="form-control-static"><a href="documents_probe.js.html">documents/probe.js</a>, <a href="documents_probe.js.html#line-918">line 918</a></p>
 								</div>
@@ -1707,15 +1715,16 @@
 		</dt>
 <dd class="symbol-details function public  collapsible-symbol">
 	<div class="symbol-details-inner">
-			<div class="callout callout-primary"><h5>Description</h5>		<div class="description"><p>Reaches into an object and allows you to get at a value deeply nested in an object. This is not a query, but a<br> straight reach in, useful for event bindings</p></div>
+			<div class="callout callout-primary"><h5>Descripción</h5>		<div class="description"><p>Reaches into an object and allows you to get at a value deeply nested in an object. This is not a query, but a<br>
+			straight reach in, useful for event bindings</p></div>
 			</div>			<div class="callout callout-info">
-				<h5>Parameters</h5>
+				<h5>Parámetros</h5>
 				<table class="params table table-striped">
 					<thead>
 					<tr>
-							<th>Name</th>
+							<th>Nombre</th>
 						<th>Type</th>
-						<th class="last">Description</th>
+						<th class="last">Descripción</th>
 					</tr>
 					</thead>
 					<tbody>
@@ -1744,7 +1753,7 @@
 								</div>
 							</div>
 					</form>
-			</div>			<div class="callout callout-default"><h5>Details</h5>		<form class="form-horizontal details">
+			</div>			<div class="callout callout-default"><h5>Detalles</h5>		<form class="form-horizontal details">
 			
 			
 			
@@ -1762,7 +1771,7 @@
 			
 							<!-- source -->
 							<div class="form-group">
-								<label class="col-sm-3 control-label">Source</label>
+								<label class="col-sm-3 control-label">Fuente</label>
 								<div class="col-sm-9">
 									<p class="form-control-static"><a href="documents_probe.js.html">documents/probe.js</a>, <a href="documents_probe.js.html#line-930">line 930</a></p>
 								</div>
@@ -1780,15 +1789,15 @@
 		</dt>
 <dd class="symbol-details function public  collapsible-symbol">
 	<div class="symbol-details-inner">
-			<div class="callout callout-primary"><h5>Description</h5>		<div class="description"><p>Returns true if any of the items match the query. Aliases as <code>any</code></p></div>
+			<div class="callout callout-primary"><h5>Descripción</h5>		<div class="description"><p>Returns true if any of the items match the query. Aliases as <code>any</code></p></div>
 			</div>			<div class="callout callout-info">
-				<h5>Parameters</h5>
+				<h5>Parámetros</h5>
 				<table class="params table table-striped">
 					<thead>
 					<tr>
-							<th>Name</th>
+							<th>Nombre</th>
 						<th>Type</th>
-						<th class="last">Description</th>
+						<th class="last">Descripción</th>
 					</tr>
 					</thead>
 					<tbody>
@@ -1817,7 +1826,7 @@
 								</div>
 							</div>
 					</form>
-			</div>			<div class="callout callout-default"><h5>Details</h5>		<form class="form-horizontal details">
+			</div>			<div class="callout callout-default"><h5>Detalles</h5>		<form class="form-horizontal details">
 			
 			
 			
@@ -1835,7 +1844,7 @@
 			
 							<!-- source -->
 							<div class="form-group">
-								<label class="col-sm-3 control-label">Source</label>
+								<label class="col-sm-3 control-label">Fuente</label>
 								<div class="col-sm-9">
 									<p class="form-control-static"><a href="documents_probe.js.html">documents/probe.js</a>, <a href="documents_probe.js.html#line-941">line 941</a></p>
 								</div>
@@ -1853,15 +1862,15 @@
 		</dt>
 <dd class="symbol-details function public  collapsible-symbol">
 	<div class="symbol-details-inner">
-			<div class="callout callout-primary"><h5>Description</h5>		<div class="description"><p>Returns true if all items match the query. Aliases as <code>all</code></p></div>
+			<div class="callout callout-primary"><h5>Descripción</h5>		<div class="description"><p>Returns true if all items match the query. Aliases as <code>all</code></p></div>
 			</div>			<div class="callout callout-info">
-				<h5>Parameters</h5>
+				<h5>Parámetros</h5>
 				<table class="params table table-striped">
 					<thead>
 					<tr>
-							<th>Name</th>
+							<th>Nombre</th>
 						<th>Type</th>
-						<th class="last">Description</th>
+						<th class="last">Descripción</th>
 					</tr>
 					</thead>
 					<tbody>
@@ -1890,7 +1899,7 @@
 								</div>
 							</div>
 					</form>
-			</div>			<div class="callout callout-default"><h5>Details</h5>		<form class="form-horizontal details">
+			</div>			<div class="callout callout-default"><h5>Detalles</h5>		<form class="form-horizontal details">
 			
 			
 			
@@ -1908,7 +1917,7 @@
 			
 							<!-- source -->
 							<div class="form-group">
-								<label class="col-sm-3 control-label">Source</label>
+								<label class="col-sm-3 control-label">Fuente</label>
 								<div class="col-sm-9">
 									<p class="form-control-static"><a href="documents_probe.js.html">documents/probe.js</a>, <a href="documents_probe.js.html#line-950">line 950</a></p>
 								</div>
@@ -1926,15 +1935,16 @@
 		</dt>
 <dd class="symbol-details function public  collapsible-symbol">
 	<div class="symbol-details-inner">
-			<div class="callout callout-primary"><h5>Description</h5>		<div class="description"><p>Binds the query and update methods to a new object. When called these<br> methods can skip the first parameter so that find(object, query) can just be called as find(query)</p></div>
+			<div class="callout callout-primary"><h5>Descripción</h5>		<div class="description"><p>Binds the query and update methods to a new object. When called these<br>
+			methods can skip the first parameter so that find(object, query) can just be called as find(query)</p></div>
 			</div>			<div class="callout callout-info">
-				<h5>Parameters</h5>
+				<h5>Parámetros</h5>
 				<table class="params table table-striped">
 					<thead>
 					<tr>
-							<th>Name</th>
+							<th>Nombre</th>
 						<th>Type</th>
-						<th class="last">Description</th>
+						<th class="last">Descripción</th>
 					</tr>
 					</thead>
 					<tbody>
@@ -1956,7 +1966,7 @@
 								</div>
 							</div>
 					</form>
-			</div>			<div class="callout callout-default"><h5>Details</h5>		<form class="form-horizontal details">
+			</div>			<div class="callout callout-default"><h5>Detalles</h5>		<form class="form-horizontal details">
 			
 			
 			
@@ -1974,7 +1984,7 @@
 			
 							<!-- source -->
 							<div class="form-group">
-								<label class="col-sm-3 control-label">Source</label>
+								<label class="col-sm-3 control-label">Fuente</label>
 								<div class="col-sm-9">
 									<p class="form-control-static"><a href="documents_probe.js.html">documents/probe.js</a>, <a href="documents_probe.js.html#line-975">line 975</a></p>
 								</div>
@@ -1992,15 +2002,16 @@
 		</dt>
 <dd class="symbol-details function public  collapsible-symbol">
 	<div class="symbol-details-inner">
-			<div class="callout callout-primary"><h5>Description</h5>		<div class="description"><p>Binds the query and update methods to a specific object and adds the methods to that object. When called these<br> methods can skip the first parameter so that find(object, query) can just be called as object.find(query)</p></div>
+			<div class="callout callout-primary"><h5>Descripción</h5>		<div class="description"><p>Binds the query and update methods to a specific object and adds the methods to that object. When called these<br>
+			methods can skip the first parameter so that find(object, query) can just be called as object.find(query)</p></div>
 			</div>			<div class="callout callout-info">
-				<h5>Parameters</h5>
+				<h5>Parámetros</h5>
 				<table class="params table table-striped">
 					<thead>
 					<tr>
-							<th>Name</th>
+							<th>Nombre</th>
 						<th>Type</th>
-						<th class="last">Description</th>
+						<th class="last">Descripción</th>
 					</tr>
 					</thead>
 					<tbody>
@@ -2015,13 +2026,14 @@
 								<td><code>collection</code></td>
 							<td><span class="param-type">object</span> | <span class="param-type">array</span></td>
 							<td class="last">
-									<p>If the collection is not the same as <code>this</code> but is a property, or even<br> a whole other object, you specify that here. Otherwise the <code>obj</code> is assumed to be the same as the collecion</p>
+									<p>If the collection is not the same as <code>this</code> but is a property, or even<br>
+			a whole other object, you specify that here. Otherwise the <code>obj</code> is assumed to be the same as the collecion</p>
 							</td>
 						</tr>
 					</tbody>
 				</table>
 			</div>
-			<div class="callout callout-default"><h5>Details</h5>		<form class="form-horizontal details">
+			<div class="callout callout-default"><h5>Detalles</h5>		<form class="form-horizontal details">
 			
 			
 			
@@ -2039,7 +2051,7 @@
 			
 							<!-- source -->
 							<div class="form-group">
-								<label class="col-sm-3 control-label">Source</label>
+								<label class="col-sm-3 control-label">Fuente</label>
 								<div class="col-sm-9">
 									<p class="form-control-static"><a href="documents_probe.js.html">documents/probe.js</a>, <a href="documents_probe.js.html#line-992">line 992</a></p>
 								</div>
@@ -2055,14 +2067,11 @@
 							</article>
 					</section>
 			</div>
-				<div class="col-md-3 side-content">
-					<nav class="toc hidden-print hidden-sm hidden-xs"></nav>
-				</div>
 		</div>
 	</div>
 	<footer>
 				<div class="copyright">FooDoc Copyright © 2016 The contributors to the JSDoc3 and FooDoc projects.</div>
-			<div class="generated-by">Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.5.5</a> on 1st May 2018 using the <a href="https://github.com/steveush/foodoc">FooDoc template</a>.</div>
+			<div class="generated-by">Documentación generada por <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.6.3</a> a 27th Feb 2020 usando la <a href="https://github.com/steveush/foodoc">plantilla FooDoc</a>.</div>
 	</footer>
 	<script src="js/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
@@ -2075,12 +2084,12 @@
 				<div class="modal-content">
 					<div class="modal-header">
 						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-						<h4 class="modal-title">Search results</h4>
+						<h4 class="modal-title">Resultados de la búsqueda</h4>
 					</div>
 					<div class="modal-body" id="lunr-search-body">
 					</div>
 					<div class="modal-footer" id="lunr-search-footer">
-						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						<button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
 					</div>
 				</div><!-- /.modal-content -->
 			</div><!-- /.modal-dialog -->
