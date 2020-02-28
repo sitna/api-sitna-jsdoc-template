@@ -64,3 +64,12 @@ iframe.example {
     border-color: #cc0000;
     border-width: 0.1em;
 }
+.table>tbody>tr>td, .table>tfoot>tr>td, .table>thead>tr>td {
+    word-break: break-word;
+}
+
+@media (min-width: 768px) {
+	.table>tbody>tr>td, .table>tfoot>tr>td, .table>thead>tr>td {
+		word-break: normal;
+	}
+}
