@@ -643,7 +643,7 @@ Handlebars.registerPartial("tag/details", this["tmpl"]["tag/details"] = Handleba
 },"27":function(container,depth0,helpers,partials,data) {
     var stack1;
 
-  return "				<!-- mixes -->\r\n				<div class=\"form-group\">\r\n					<label class=\"col-sm-3 control-label\">Mixes In</label>\r\n					<div class=\"col-sm-9\">\r\n"
+  return "				<!-- mixes -->\r\n				<div class=\"form-group\">\r\n					<label class=\"col-sm-3 control-label\">Combina</label>\r\n					<div class=\"col-sm-9\">\r\n"
     + ((stack1 = (helpers.single || (depth0 && depth0.single) || helpers.helperMissing).call(depth0 != null ? depth0 : (container.nullContext || {}),(depth0 != null ? depth0.mixes : depth0),{"name":"single","hash":{},"fn":container.program(8, data, 0),"inverse":container.program(28, data, 0),"data":data})) != null ? stack1 : "")
     + "					</div>\r\n				</div>\r\n";
 },"28":function(container,depth0,helpers,partials,data) {
