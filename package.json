@@ -1,36 +1,47 @@
 {
-  "name": "@sitna/jsdoc-template",
-  "version": "0.0.9",
-  "description": "A Bootstrap and Handlebars based JSDoc3 template.",
-  "main": "./template/publish.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "_from": "@sitna/jsdoc-template",
+  "_inBundle": false,
+  "_integrity": "sha512-Jtbf9W9HYSO4ps4TIBMZb05q3XNtuihhkTMWzWo9tRtINqdgbDEgK6UNxfMettTbH74B0aKYNj8ZC6GbK7PL3g==",
+  "_location": "/@sitna/jsdoc-template",
+  "_phantomChildren": {
+    "brace-expansion": "1.1.11",
+    "fs.realpath": "1.0.0",
+    "inflight": "1.0.6",
+    "inherits": "2.0.3",
+    "once": "1.4.0",
+    "path-is-absolute": "1.0.1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sitna/api-sitna-jsdoc-template.git"
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "@sitna/jsdoc-template",
+    "name": "@sitna/jsdoc-template",
+    "escapedName": "@sitna%2fjsdoc-template",
+    "scope": "@sitna",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
   },
-  "keywords": [
-    "jsdoc",
-    "template"
+  "_requiredBy": [
+    "#DEV:/",
+    "#USER"
   ],
-  "author": "Fernando Lacunza",
-  "license": "GPL-3.0",
-  "homepage": "https://github.com/sitna/api-sitna-jsdoc-template",
-  "devDependencies": {
-    "bootstrap": "^3.3.7",
-    "clipboard": "^2.0.1",
-    "grunt-contrib-handlebars": "^1.0.0",
-    "grunt-jsdoc": "^2.2.0",
-    "jquery": "^3.1.1",
-    "prismjs": "^1.14.0"
+  "_resolved": "https://npm.pkg.github.com/download/@sitna/jsdoc-template/0.0.9/c1fab74e6659ac36aab284c164ae4a13894e4d2921f5895c432168f1feec34d3",
+  "_shasum": "0934166b9b485e299d0c452a732dffcd357874b4",
+  "_spec": "@sitna/jsdoc-template",
+  "_where": "C:\\TFS\\WEB_Common\\MapJS\\_Dev\\api",
+  "author": {
+    "name": "Fernando Lacunza"
   },
+  "bugs": {
+    "url": "https://github.com/sitna/api-sitna-jsdoc-template/issues"
+  },
+  "bundleDependencies": false,
   "dependencies": {
     "cheerio": "^0.22.0",
     "extend": "^3.0.1",
     "glob": "^7.1.2",
     "grunt": "^1.0.2",
-    "moment": "^2.22.1",
     "grunt-contrib-clean": "^1.1.0",
     "grunt-contrib-copy": "^1.0.0",
     "grunt-contrib-cssmin": "^2.2.1",
@@ -39,6 +50,33 @@
     "handlebars-layouts": "^3.1.4",
     "jsdoc": "^3.5.5",
     "lunr": "^1.0.0",
+    "moment": "^2.22.1",
     "sanitize-html": "^1.18.2"
-  }
+  },
+  "deprecated": false,
+  "description": "A Bootstrap and Handlebars based JSDoc3 template.",
+  "devDependencies": {
+    "bootstrap": "^3.3.7",
+    "clipboard": "^2.0.1",
+    "grunt-contrib-handlebars": "^1.0.0",
+    "grunt-jsdoc": "^2.2.0",
+    "jquery": "^3.1.1",
+    "prismjs": "^1.14.0"
+  },
+  "homepage": "https://github.com/sitna/api-sitna-jsdoc-template",
+  "keywords": [
+    "jsdoc",
+    "template"
+  ],
+  "license": "GPL-3.0",
+  "main": "./template/publish.js",
+  "name": "@sitna/jsdoc-template",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sitna/api-sitna-jsdoc-template.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0"
 }

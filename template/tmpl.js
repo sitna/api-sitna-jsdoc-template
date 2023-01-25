@@ -838,7 +838,7 @@ Handlebars.registerPartial("tag/param", this["tmpl"]["tag/param"] = Handlebars.t
   return ((stack1 = helpers.unless.call(alias1,(depth0 != null ? depth0.child : depth0),{"name":"unless","hash":{},"fn":container.program(2, data, 0, blockParams, depths),"inverse":container.noop,"data":data})) != null ? stack1 : "")
     + "	<table class=\"params table table-striped\">\r\n		<thead>\r\n		<tr>\r\n"
     + ((stack1 = helpers["if"].call(alias1,(depth0 != null ? depth0.paramsHasNames : depth0),{"name":"if","hash":{},"fn":container.program(4, data, 0, blockParams, depths),"inverse":container.noop,"data":data})) != null ? stack1 : "")
-    + "			<th>Type</th>\r\n"
+    + "			<th>Tipo</th>\r\n"
     + ((stack1 = helpers["if"].call(alias1,(depth0 != null ? depth0.paramsHasAttributes : depth0),{"name":"if","hash":{},"fn":container.program(6, data, 0, blockParams, depths),"inverse":container.noop,"data":data})) != null ? stack1 : "")
     + ((stack1 = helpers["if"].call(alias1,(depth0 != null ? depth0.paramsHasDefaults : depth0),{"name":"if","hash":{},"fn":container.program(8, data, 0, blockParams, depths),"inverse":container.noop,"data":data})) != null ? stack1 : "")
     + "			<th class=\"last\">Descripción</th>\r\n		</tr>\r\n		</thead>\r\n		<tbody>\r\n"
@@ -907,7 +907,7 @@ Handlebars.registerPartial("tag/prop", this["tmpl"]["tag/prop"] = Handlebars.tem
   return ((stack1 = helpers.unless.call(alias1,(depth0 != null ? depth0.child : depth0),{"name":"unless","hash":{},"fn":container.program(2, data, 0, blockParams, depths),"inverse":container.noop,"data":data})) != null ? stack1 : "")
     + "	<table class=\"params table table-striped\">\r\n		<thead>\r\n		<tr>\r\n"
     + ((stack1 = helpers["if"].call(alias1,(depth0 != null ? depth0.propertiesHasNames : depth0),{"name":"if","hash":{},"fn":container.program(4, data, 0, blockParams, depths),"inverse":container.noop,"data":data})) != null ? stack1 : "")
-    + "			<th>Type</th>\r\n"
+    + "			<th>Tipo</th>\r\n"
     + ((stack1 = helpers["if"].call(alias1,(depth0 != null ? depth0.propertiesHasAttributes : depth0),{"name":"if","hash":{},"fn":container.program(6, data, 0, blockParams, depths),"inverse":container.noop,"data":data})) != null ? stack1 : "")
     + ((stack1 = helpers["if"].call(alias1,(depth0 != null ? depth0.propertiesHasDefaults : depth0),{"name":"if","hash":{},"fn":container.program(8, data, 0, blockParams, depths),"inverse":container.noop,"data":data})) != null ? stack1 : "")
     + "			<th class=\"last\">Descripción</th>\r\n		</tr>\r\n		</thead>\r\n		<tbody>\r\n"
