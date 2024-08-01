@@ -31,11 +31,23 @@
 				.toc .nav > li.active > a:hover,
 				.toc .nav > li.active > a:focus,
 				pre.code-toolbar > .toolbar:hover {
-					border-left-color: {{options.systemColor}};
+				    color: rgb(118, 118, 118);
+				    background-color: #fff;
+				    border-left-color: #e1e1e8;
+				    border-bottom-color: #e1e1e8;
 				}
-				pre.code-toolbar > .toolbar:hover {
-					border-bottom-color: {{options.systemColor}};
+				
+				pre.code-toolbar > .toolbar .toolbar-item:hover {    
+				    border-color: {{options.systemColor}};
+				    color: #fff;
+				    background: {{options.systemColor}};
 				}
+				pre.code-toolbar > .toolbar .toolbar-item:hover:first-child {
+				    border-bottom-left-radius: 4px
+				}
+				 pre.code-toolbar > .toolbar button{
+				     padding: 7px 8px;
+				 }
 				.callout-primary h5,
 				.symbol-title.collapsible-symbol .toggle-icon,
 				.breadcrumb li a,
