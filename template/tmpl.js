@@ -46,11 +46,11 @@ Handlebars.registerPartial("site/layout", this["tmpl"]["site/layout"] = Handleba
 
   return "			<style>\r\n				.page-header,\r\n				pre.code-toolbar > .toolbar:hover {\r\n					background-color: "
     + alias2(alias1(((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.systemColor : stack1), depth0))
-    + ";\r\n				}\r\n				.callout-primary,\r\n				.toc .nav > li > a:hover,\r\n				.toc .nav > li > a:focus,\r\n				.toc .nav > li.active > a,\r\n				.toc .nav > li.active > a:hover,\r\n				.toc .nav > li.active > a:focus,\r\n				pre.code-toolbar > .toolbar:hover {\r\n					border-left-color: "
+    + ";\r\n				}\r\n				.callout-primary,\r\n				.toc .nav > li > a:hover,\r\n				.toc .nav > li > a:focus,\r\n				.toc .nav > li.active > a,\r\n				.toc .nav > li.active > a:hover,\r\n				.toc .nav > li.active > a:focus,\r\n				pre.code-toolbar > .toolbar:hover {\r\n				    color: rgb(118, 118, 118);\r\n				    background-color: #fff;\r\n				    border-left-color: #e1e1e8;\r\n				    border-bottom-color: #e1e1e8;\r\n				}\r\n				\r\n				pre.code-toolbar > .toolbar .toolbar-item:hover {    \r\n				    border-color: "
     + alias2(alias1(((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.systemColor : stack1), depth0))
-    + ";\r\n				}\r\n				pre.code-toolbar > .toolbar:hover {\r\n					border-bottom-color: "
+    + ";\r\n				    color: #fff;\r\n				    background: "
     + alias2(alias1(((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.systemColor : stack1), depth0))
-    + ";\r\n				}\r\n				.callout-primary h5,\r\n				.symbol-title.collapsible-symbol .toggle-icon,\r\n				.breadcrumb li a,\r\n				.toc .nav > li > a:hover,\r\n				.toc .nav > li > a:focus,\r\n				.toc .nav > li.active > a,\r\n				.toc .nav > li.active > a:hover,\r\n				.toc .nav > li.active > a:focus {\r\n					color: "
+    + ";\r\n				}\r\n				pre.code-toolbar > .toolbar .toolbar-item:hover:first-child {\r\n				    border-bottom-left-radius: 4px\r\n				}\r\n				 pre.code-toolbar > .toolbar button{\r\n				     padding: 7px 8px;\r\n				 }\r\n				.callout-primary h5,\r\n				.symbol-title.collapsible-symbol .toggle-icon,\r\n				.breadcrumb li a,\r\n				.toc .nav > li > a:hover,\r\n				.toc .nav > li > a:focus,\r\n				.toc .nav > li.active > a,\r\n				.toc .nav > li.active > a:hover,\r\n				.toc .nav > li.active > a:focus {\r\n					color: "
     + alias2(alias1(((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.systemColor : stack1), depth0))
     + ";\r\n				}\r\n			</style>\r\n";
 },"8":function(container,depth0,helpers,partials,data) {
@@ -350,7 +350,7 @@ Handlebars.registerPartial("site/navbar", this["tmpl"]["site/navbar"] = Handleba
     + ((stack1 = helpers.each.call(alias1,((stack1 = (depth0 != null ? depth0.navbar : depth0)) != null ? stack1.topLevel : stack1),{"name":"each","hash":{},"fn":container.program(7, data, 0, blockParams, depths),"inverse":container.noop,"data":data})) != null ? stack1 : "")
     + "                <li><a href=\"https://github.com/sitna/api-sitna\">Ver en Github</a></li>\r\n			</ul>\r\n"
     + ((stack1 = helpers["if"].call(alias1,((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.search : stack1),{"name":"if","hash":{},"fn":container.program(16, data, 0, blockParams, depths),"inverse":container.noop,"data":data})) != null ? stack1 : "")
-    + "		</div>\r\n	</div>\r\n</header>\r\n<!-- end:navbar.hbs -->";
+    + "		</div>\r\n	</div>\r\n</header>\r\n<!-- end:navbar.hbs -->\r\n";
 },"usePartial":true,"useData":true,"useDepths":true}));
 
 Handlebars.registerPartial("symbol/inline", this["tmpl"]["symbol/inline"] = Handlebars.template({"1":function(container,depth0,helpers,partials,data) {
